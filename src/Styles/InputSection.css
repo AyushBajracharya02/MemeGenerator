@@ -1,0 +1,44 @@
+
+
+.input-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;    
+}
+
+input{
+    height: 35px;
+    width: 100%;
+    border-radius: .25em;
+    border: 1px solid #D5D4D8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba( 13, 13, 13, 0.8);
+    padding: 0 3%;
+}
+
+button{
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: .25em;
+    background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(165, 38, 210, 1));
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    filter: brightness(.8);
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+
+button:hover{
+    filter: brightness(1);
+}
+
+button>img{
+    height: 85%;
+    filter: invert(1);
+}
